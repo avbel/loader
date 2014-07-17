@@ -31,5 +31,5 @@ module.exports.register = function*(plugin){
 };
 
 module.exports.register.attributes = {
-  name: "loader"
+  pkg: require("./package.json")
 };
