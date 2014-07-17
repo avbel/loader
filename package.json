@@ -1,6 +1,6 @@
 {
   "name": "loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "It allows to load all modules of given directory with one call ",
   "main": "index.js",
   "scripts": {
