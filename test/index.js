@@ -11,7 +11,7 @@ describe("loader", function(){
       (typeof server.methods.loader.loadModules === "function").should.be.true;
     });
 
-    it("should load all modules from give directory", function*(){
+    it("should load all modules from given directory", function*(){
       let result = yield server.methods.loader.loadModules(__dirname + "/plugins");
       result.length.should.equal(2);
       result.map(function(m){ return m.name;}).sort().should.eql(["plugin1", "plugin2"]);
